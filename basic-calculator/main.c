@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 int main () {
-    int x;
-    int y;
+    double x;
+    double y;
     printf("Enter first number: ");
-    scanf("%d", &x);
+    scanf("%lf", &x);
     printf("Enter second number: ");
-    scanf("%d", &y);
+    scanf("%lf", &y);
 
-    printf("Answer: %d\n", x + y);
+    printf("Answer: %f\n", x + y);
 
     return 0;
 } 
